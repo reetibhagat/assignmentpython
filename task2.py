@@ -9,21 +9,21 @@
 # string.
 
 
-# num = int(input("enter the number:"))
-#
-#
-# def check_multiple(num):
-#     if num % 5 == 0 and num % 3 == 0:
-#         print("Consultadd - Python Training")
-#     elif num % 5 == 0:
-#         print("Python Training")
-#     elif num % 3 == 0:
-#         print("Consultadd")
-#     else:
-#         print(None)
-#
-#
-# (check_multiple(num))
+num = int(input("enter the number:"))
+
+
+def check_multiple(num):
+    if num % 5 == 0 and num % 3 == 0:
+        print("Consultadd - Python Training")
+    elif num % 5 == 0:
+        print("Python Training")
+    elif num % 3 == 0:
+        print("Consultadd")
+    else:
+        print(None)
+
+
+(check_multiple(num))
 
 # 2. Write a program in Python to perform the following operator based task:
 # Ask user to choose the following option first:
