@@ -1,6 +1,12 @@
-# 2. Write a program to construct a dictionary from the two lists containing the names of students and
-# their corresponding subjects. The dictionary should map the students with their respective subjects.
-# Let’s see how to do this using for loops and dictionary comprehension.
-#     HINT - Use Zip function also
-# Sample input: students = ['Smit', 'Jaya', 'Rayyan'] subjects = ['CSE', 'Networking', 'Operating System']
-# Expected output: {‘Smit’ : ’CSE’ , ’Jaya’ : ’Networking’ , ’Rayyan’ : ’Operating System’}
+# 3. Learn More about Yield, next and Generators
+def infinite_sequence():
+    num = 0
+    while True:
+        yield num
+        num += 1
+a= infinite_sequence()
+print(a.__next__())
+print(a.__next__())
+print(a.__next__())
+for i in a:
+    print(i)
